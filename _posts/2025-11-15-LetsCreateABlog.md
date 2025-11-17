@@ -114,13 +114,3 @@ git add .
 git commit -m "The first blog post!"
 git push
 ```
-
-
-```
-```
-```
-```
-```
-```
-```
-```
