@@ -45,6 +45,7 @@ As I am using Linux, I will be providing the necessary dependencies and prerequi
 ## Obsidian
 Luckily for me Obsidian came installed by default on the OmarchyOS Linux distribution, but the website has an AppImage available to download.
 The first time I opened Obsidian I was presented with the following:
+
 ![Opening Obsidian For the First Time](Obsidian_First_Open.png)
 
 Now we just need to create a Vault-- which is just another way of saying folder-- in a convenient location, and we go on creating this Markdown document.
@@ -82,6 +83,7 @@ We now have everything we need, and technically we are done! All of the dependen
 bundle exec jekyll s
 ```
 will produce a locally running and serving version of the static site:
+
 ![Chirpy Defaults](Chirpy_Base.png)
 
 ## Configure Chirpy
@@ -91,9 +93,11 @@ I stopped the server while I was configuring the settings, but that may be unnec
 ## Deploy
 I mentioned that Chirpy supports a lot of features, and one of the wonderful features is metadata like tags, date, and title. Obsidian calls this metadata `properties`, but since this is all just Markdown the implementation is standardized. I just added the corresponding properties to the document in Obsidian, but you can use a block of "---" at the beginning of the document to achieve the same results. Please see the screenshots below.
 Obsidian properties:
+
 ![Obsidian Rendered Properties](Obsidian_Properties.png)
 
 Markdown Standard:
+
 ![Markdown Text-base Front Matter](Markdown_Preamble.png)
 
 With my metadata implemented, I now need to get my Markdown document and its assets into the repository (so much for *minimal* friction). I imagine eventually I will create a script to automate this process, but this should be a simple mirror:
@@ -114,3 +118,13 @@ git add .
 git commit -m "The first blog post!"
 git push
 ```
+
+> If you are getting errors during the Github Action along the lines `internal [object] does not exist` verify that the `_config.yml` has the correct URL, that the name of the repository is *exactly* the same as your username, and that they both match! That little bug cost me a couple of hours..
+
+# After Action Report
+This is mostly just lessons learned and conclusion/reflection. What did I learn? I shouldn't take an out-dated video at first glance, and I should corroborate with the up-to-date documentation. Another key takeaway from this little project is that sometimes built-in niceties that really impact productivity in one suite aren't necessarily going to translate down the road. The images in this post are a key example of this. Do I only use Obsidian because of how it handles rendering and adding images/links, absolutely not; it is just one of nicer things I get *if* I stay in the ecosystem. Markdown is convenient because it's relatively standardized, so while this might be one feature in Obsidian I cannot take advantage of fully the rest of the ecosystem is available. To reduce my own friction I can just mirror the structure and reference the images that way.
+
+And finally, the best way to learn is to both do the thing you are learning about, and to teach others what you are learning. I believe this is an excellent way to do both. Am I satisfied with where this blog is after day ~~one~~ two? Completely! Is this state where it will be in perpetuity? Absolutely no. This is a satisfactory starting point to put one foot in front of the other, doing the next best steps mentality of things. 
+
+Until next time! 
+=^.^=
