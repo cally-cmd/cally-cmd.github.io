@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title: Cally's Blog and Tech Misadventures # the main title
 
-tagline: A collection write-ups, walkthroughs, and fail-forwards in my tech journey. # it will display as the subtitle
+tagline: A collection of write-ups, walkthroughs, and fail-forwards in my tech journey. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A blog meant to perform as a way to distribute what I learn as I engage with some of my fascinations in tech, and as a way to showcase what I am interested in and currently learning.
