@@ -17,7 +17,7 @@ I am currently a System Engineer for \[redacted\], and my goal is to obtain the 
 I have realized that CISO is quite likely not the role I wish to strive for or attain since I'm not interested in the politics that happen at that level.
 It may be something that happens eventually regardless, but I am clearly unqualified for such a role anytime in the near to mid future.
 
-Outside of cybersecurity and IT, I quite enjoy nature-- specifically birding, music, and reading.
+Outside of cybersecurity and IT, I quite enjoy nature (specifically birding), music, and reading.
 
 ## A Goofy Roadmap
 
