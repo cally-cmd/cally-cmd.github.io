@@ -1,0 +1,25 @@
+
+
+{
+  "name": "Cally's Blog and Tech Misadventures",
+  "short_name": "Cally's Blog and Tech Misadventures",
+  "description": "A blog meant to perform as a way to distribute what I learn as I engage with some of my fascinations in tech, and as a way to showcase what I am interested in and currently learning.",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/favicons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/index.html",
+  "theme_color": "#2a1e6b",
+  "background_color": "#ffffff",
+  "display": "fullscreen"
+}
+
